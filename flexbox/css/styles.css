@@ -1,0 +1,67 @@
+*{ 
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: aqua;
+}
+#lista{
+    display: flex;
+    justify-content: space-around;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    height: 200px;
+    align-items: center;
+    background-color: black;
+    
+}
+h1{
+    color: azure;
+}
+nav{
+    width: 100%;
+    height: 80px;
+    background-color: aquamarine;
+    align-items: center;
+}
+.caja{
+    width: 300px;
+    height: 300px;
+    background-color: blanchedalmond;
+    border: solid 2px black;
+}
+#contenedor1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 2000px;
+    align-items: center;
+}
+#contenedor2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+#form{
+    align-self: flex-start;
+    height: 1200px;
+    justify-content: center;
+    background-color: antiquewhite;
+}
+#caja1{
+    order: 1;
+}
+#caja2{
+    order: 2;
+}
+#caja4{
+    order: 5;
+}
+#caja5{
+    order: 4;
+}
+#cajax{
+    flex-grow: 1;
+}
